@@ -36,8 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\enemymover.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\Game_closer.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
